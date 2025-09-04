@@ -8,7 +8,7 @@ using System.Collections;
 
 namespace ProjectByDotsenko
 {
-    internal class Program
+    internal class LabTwoTaskTwo
     {
         static void Main(string[] args)
         {
