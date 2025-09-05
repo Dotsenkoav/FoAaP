@@ -8,9 +8,9 @@ using System.Collections;
 
 namespace ProjectByDotsenko
 {
-    internal class LabTwoTaskTwo
+    public class LabOneTaskOne
     {
-        static void Main(string[] args)
+        public void Run()
         {
             Console.Write("Введите стоимость килограмма яблок: ");
             float costKgApple = float.Parse(Console.ReadLine().Replace(".", ","));
