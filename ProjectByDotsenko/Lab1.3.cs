@@ -8,9 +8,9 @@ using System.Collections;
 
 namespace ProjectByDotsenko
 {
-    internal class LabTwoTaskTwo
+    public class LabOneTaskThree
     {
-        static void Main(string[] args)
+        public void Run()
         {
             Console.Write("Введите число a: "); //Запрос ввода
             int a = int.Parse(Console.ReadLine()); //Ввод числа a

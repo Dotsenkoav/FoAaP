@@ -8,9 +8,9 @@ using System.Collections;
 
 namespace ProjectByDotsenko
 {
-    internal class LabOneTaskFour
+    public class LabOneTaskFour
     {
-        static void Main(string[] args)
+        public void Run()
         {
             Console.Write("Введите длительность разговора: "); // Запрос ввода длительности разговора
             int durationTalk = int.Parse(Console.ReadLine()); // Ввод от пользователя длительности разговора

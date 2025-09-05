@@ -44,8 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lab1.2.cs" />
-    <Compile Include="Lab2.2.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Lab1.1.cs" />
+    <Compile Include="Lab1.3.cs" />
+    <Compile Include="Lab1.4 .cs" />
+    <Compile Include="Lab3.1.cs" />
+    <Compile Include="Lab3.2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
