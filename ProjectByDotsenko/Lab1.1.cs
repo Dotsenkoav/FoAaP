@@ -8,7 +8,7 @@ using System.Collections;
 
 namespace ProjectByDotsenko
 {
-    public class LabOneTaskOne
+    public class LabTwoTaskOne
     {
         public void Run()
         {

@@ -53,8 +53,7 @@ namespace ProjectByDotsenko
                 }
                 catch (Exception)
                 {
-                    Console.WriteLine("Ошибка ввода числа. Введите любое число или 0 для завершения программы");
-                    inputMassive.Clear();
+                    Console.WriteLine("Ошибка ввода числа.  Введите любое число или 0 для завершения программы");
                 }
             }
             return inputMassive;

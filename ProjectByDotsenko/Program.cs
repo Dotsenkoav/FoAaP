@@ -12,22 +12,22 @@ namespace ProjectByDotsenko
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Выберите задачу: 1.1, 1.3, 1.4, 2.1, 2.2, 3.1, 3.2");
+            Console.WriteLine("Выберите задачу: 2.1, 2.3, 2.4, 3.1, 3.2");
 
             string choose = Console.ReadLine(); 
 
             switch(choose)
             {
-                case "1.1":
-                    LabOneTaskOne lab11 = new LabOneTaskOne();
+                case "2.1":
+                    LabTwoTaskOne lab11 = new LabOneTaskOne();
                     lab11.Run();
                     break;
-                case "1.3":
-                    LabOneTaskThree lab13 = new LabOneTaskThree();
+                case "2.3":
+                    LabTwoTaskThree lab13 = new LabOneTaskThree();
                     lab13.Run();
                     break;
-                case "1.4":
-                    LabOneTaskFour lab14 = new LabOneTaskFour();
+                case "2.4":
+                    LabTwoTaskFour lab14 = new LabOneTaskFour();
                     lab14.Run();
                     break;
                 case "3.1":
