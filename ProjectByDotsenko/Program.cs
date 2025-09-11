@@ -19,15 +19,15 @@ namespace ProjectByDotsenko
             switch(choose)
             {
                 case "2.1":
-                    LabTwoTaskOne lab11 = new LabOneTaskOne();
+                    LabTwoTaskOne lab11 = new LabTwoTaskOne();
                     lab11.Run();
                     break;
                 case "2.3":
-                    LabTwoTaskThree lab13 = new LabOneTaskThree();
+                    LabTwoTaskThree lab13 = new LabTwoTaskThree();
                     lab13.Run();
                     break;
                 case "2.4":
-                    LabTwoTaskFour lab14 = new LabOneTaskFour();
+                    LabTwoTaskFour lab14 = new LabTwoTaskFour();
                     lab14.Run();
                     break;
                 case "3.1":
