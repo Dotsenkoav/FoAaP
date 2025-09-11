@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Net.Mime.MediaTypeNames;
 
 
 namespace ProjectByDotsenko
@@ -7,11 +8,15 @@ namespace ProjectByDotsenko
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
+
             Console.WriteLine("Выберите задачу: 2.1, 2.3, 2.4, 3.1, 3.2, 4.1, 4.2, 5.1");
 
-            string choose = Console.ReadLine(); 
+            Console.ForegroundColor = ConsoleColor.Green;
+            string choose = Console.ReadLine();
 
-            switch(choose)
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            switch (choose)
             {
                 case "2.1":
                     LabTwoTaskOne lab11 = new LabTwoTaskOne();
