@@ -12,7 +12,7 @@ namespace ProjectByDotsenko
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Выберите задачу: 2.1, 2.3, 2.4, 3.1, 3.2");
+            Console.WriteLine("Выберите задачу: 2.1, 2.3, 2.4, 3.1, 3.2, 4.1, 4.2");
 
             string choose = Console.ReadLine(); 
 
@@ -37,6 +37,14 @@ namespace ProjectByDotsenko
                 case "3.2":
                     LabThreeTaskTwo lab32 = new LabThreeTaskTwo();
                     lab32.Run();
+                    break;
+                case "4.1":
+                    LabFourTaskOne lab41 = new LabFourTaskOne();
+                    lab41.Run();
+                    break;
+                case "4.2":
+                    LabFourTaskTwo lab42 = new LabFourTaskTwo();
+                    lab42.Run();
                     break;
             }
         }
