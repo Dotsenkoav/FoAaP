@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Numerics; // Пространство имен числовых типов
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections;
+
 
 namespace ProjectByDotsenko
 {
@@ -12,7 +7,7 @@ namespace ProjectByDotsenko
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Выберите задачу: 2.1, 2.3, 2.4, 3.1, 3.2, 4.1, 4.2");
+            Console.WriteLine("Выберите задачу: 2.1, 2.3, 2.4, 3.1, 3.2, 4.1, 4.2, 5.1");
 
             string choose = Console.ReadLine(); 
 
@@ -45,6 +40,10 @@ namespace ProjectByDotsenko
                 case "4.2":
                     LabFourTaskTwo lab42 = new LabFourTaskTwo();
                     lab42.Run();
+                    break;
+                case "5.1":
+                    LabFiveTaskOne lab51 = new LabFiveTaskOne();
+                    lab51.Run();
                     break;
             }
         }

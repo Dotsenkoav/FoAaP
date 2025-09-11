@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Numerics; // Пространство имен числовых типов
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections;
-using System.Runtime.InteropServices;
-using System.Diagnostics.CodeAnalysis;
+
 
 namespace ProjectByDotsenko
 {
@@ -23,7 +16,7 @@ namespace ProjectByDotsenko
             outputArray(randomArray); //Вывод матрицы после преобразования
         }
 
-        internal static int[,] modifyArray(int[,] inputArray) //Метод модифицирующий матрицу
+        internal static void modifyArray(int[,] inputArray) //Метод модифицирующий матрицу
         {
             for (int i = 0; i < inputArray.GetLength(0); i++)
             {
@@ -35,7 +28,6 @@ namespace ProjectByDotsenko
                     }
                 }
             }
-            return inputArray;
         }
 
         internal static int[,] generateArray(int rows, int columns) //Метод генерирующий матрицу и заполняющий случайными числами
@@ -64,10 +56,10 @@ namespace ProjectByDotsenko
             }
         }
 
-        internal static (int i, int j) readInput() //Метод считывания
+        internal static (int rows, int columns) readInput() //Метод считывания
         {
-            int i;
-            int j;
+            int rows;
+            int columns;
             while (true)
             {
                 Console.Write("Введите кол-во строк матрицы: ");
@@ -76,9 +68,9 @@ namespace ProjectByDotsenko
                 string jStr = Console.ReadLine();
                 try
                 {
-                    i = int.Parse(iStr);
-                    j = int.Parse(jStr);
-                    if (i <= 0 || j <= 0)
+                    rows = int.Parse(iStr);
+                    columns = int.Parse(jStr);
+                    if (rows <= 0 || columns <= 0)
                     {
                         Console.WriteLine("Ошибка: Числа должны быть положительными");
                     }
@@ -92,7 +84,7 @@ namespace ProjectByDotsenko
                     Console.WriteLine("Ошибка: Введите натуральные целые числа");
                 }
             }
-            return (i, j);
+            return (rows, columns);
         }
     }
 }

@@ -1,12 +1,4 @@
 ﻿using System;
-using System.Numerics; // Пространство имен числовых типов
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections;
-using System.Runtime.InteropServices;
-using System.Diagnostics.CodeAnalysis;
 
 namespace ProjectByDotsenko
 {
@@ -34,7 +26,6 @@ namespace ProjectByDotsenko
                 if (i % 3 == 0 && i % 5 != 0)
                 {
                     sum += 1;
-                    return sum;
                 }
             }
             return sum;
