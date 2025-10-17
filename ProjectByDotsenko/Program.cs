@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Numerics; // Пространство имен числовых типов
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections;
+
 
 namespace ProjectByDotsenko
 {
@@ -45,6 +40,38 @@ namespace ProjectByDotsenko
                 case "4.2":
                     LabFourTaskTwo lab42 = new LabFourTaskTwo();
                     lab42.Run();
+                    break;
+                case "5.1":
+                    LabFiveTaskOne lab51 = new LabFiveTaskOne();
+                    lab51.Run();
+                    break;
+                case "5.2":
+                    LabFiveTaskTwo lab52 = new LabFiveTaskTwo();
+                    lab52.Run();
+                    break;
+                case "6.1":
+                    LabSixTaskOne lab61 = new LabSixTaskOne();
+                    lab61.Run();
+                    break;
+                case "6.2":
+                    LabSevenTaskTwo lab62 = new LabSevenTaskTwo();
+                    lab62.Run();
+                    break;
+                case "6.3":
+                    LabSixTaskThree lab63 = new LabSixTaskThree();
+                    lab63.Run();
+                    break;
+                case "6.4":
+                    LabSixTaskFour lab64 = new LabSixTaskFour();
+                    lab64.Run();
+                    break;
+                case "7.1":
+                    LabSevenTaskOne lab71 = new LabSevenTaskOne();
+                    lab71.Run();
+                    break;
+                case "7.2":
+                    LabSevenTaskTwo lab72 = new LabSevenTaskTwo();
+                    lab72.Run();
                     break;
             }
         }
